@@ -1,0 +1,473 @@
+2026-03-12 12:35:39,278 | INFO | Loading config...
+2026-03-12 12:35:39,278 | INFO | Loading config...
+2026-03-12 12:35:39,354 | INFO | Loaded cfg from tools/cfgs/waymo_models/ptt_32frames.yaml
+2026-03-12 12:35:39,355 | INFO | Loaded cfg from tools/cfgs/waymo_models/ptt_32frames.yaml
+2026-03-12 12:35:39,356 | INFO | Loading Waymo dataset
+2026-03-12 12:35:39,358 | INFO | Loading Waymo dataset
+2026-03-12 12:35:41,068 | INFO | Total skipped info 0
+2026-03-12 12:35:41,456 | INFO | Total skipped info 0
+2026-03-12 12:35:43,491 | INFO | Total samples for Waymo dataset: 38597
+2026-03-12 12:35:43,491 | INFO | Total samples for Waymo dataset: 38597
+2026-03-12 12:35:43,493 | INFO | Loading and reorganizing pred_boxes to dict from path: /storage/project/r-gchou3-0/spanse30/OpenPCDet/output/cfgs/custom_models/centerpoint_multiframe_waymo/default/eval/epoch_36/val/default/result_fixed.pkl
+2026-03-12 12:35:43,493 | INFO | Loading and reorganizing pred_boxes to dict from path: /storage/project/r-gchou3-0/spanse30/OpenPCDet/output/cfgs/custom_models/centerpoint_multiframe_waymo/default/eval/epoch_36/val/default/result_fixed.pkl
+2026-03-12 12:35:47,930 | INFO | Predicted boxes has been loaded, total sequences: 202
+2026-03-12 12:35:48,158 | INFO | Test set length: 38597
+2026-03-12 12:35:51,246 | INFO | Loading checkpoint from: output/cfgs/waymo_models/default/checkpoint_epoch_6.pth
+2026-03-12 12:35:53,271 | INFO | ==> Loading parameters from checkpoint output/cfgs/waymo_models/default/checkpoint_epoch_6.pth to GPU
+2026-03-12 12:36:00,065 | INFO | ==> Checkpoint trained from version: pcdet+0.6.0+83690fd
+2026-03-12 12:36:00,506 | INFO | ==> Done (loaded 264/264)
+2026-03-12 12:36:01,208 | INFO | Loading clean proposals from /storage/project/r-gchou3-0/spanse30/OpenPCDet/output/cfgs/custom_models/centerpoint_multiframe_waymo/default/eval/epoch_36/val/default/result_fixed.pkl
+2026-03-12 12:36:05,344 | INFO | Organised clean proposals for 195 segments
+2026-03-12 12:36:06,353 | INFO | Processing segment: segment-10203656353524179475_7625_000_7645_000_with_camera_labels
+2026-03-12 12:36:41,995 | INFO | Saved preds for: segment-10203656353524179475_7625_000_7645_000_with_camera_labels
+2026-03-12 12:36:41,997 | INFO | Processing segment: segment-1024360143612057520_3580_000_3600_000_with_camera_labels
+2026-03-12 12:37:17,644 | INFO | Saved preds for: segment-1024360143612057520_3580_000_3600_000_with_camera_labels
+2026-03-12 12:37:17,645 | INFO | Processing segment: segment-10247954040621004675_2180_000_2200_000_with_camera_labels
+2026-03-12 12:37:51,127 | INFO | Saved preds for: segment-10247954040621004675_2180_000_2200_000_with_camera_labels
+2026-03-12 12:37:51,129 | INFO | Processing segment: segment-10289507859301986274_4200_000_4220_000_with_camera_labels
+2026-03-12 12:38:27,368 | INFO | Saved preds for: segment-10289507859301986274_4200_000_4220_000_with_camera_labels
+2026-03-12 12:38:27,370 | INFO | Processing segment: segment-10335539493577748957_1372_870_1392_870_with_camera_labels
+2026-03-12 12:38:51,591 | INFO | Saved preds for: segment-10335539493577748957_1372_870_1392_870_with_camera_labels
+2026-03-12 12:38:51,592 | INFO | Processing segment: segment-10359308928573410754_720_000_740_000_with_camera_labels
+2026-03-12 12:39:27,178 | INFO | Saved preds for: segment-10359308928573410754_720_000_740_000_with_camera_labels
+2026-03-12 12:39:27,179 | INFO | Processing segment: segment-10448102132863604198_472_000_492_000_with_camera_labels
+2026-03-12 12:39:57,465 | INFO | Saved preds for: segment-10448102132863604198_472_000_492_000_with_camera_labels
+2026-03-12 12:39:57,466 | INFO | Processing segment: segment-10689101165701914459_2072_300_2092_300_with_camera_labels
+2026-03-12 12:40:33,383 | INFO | Saved preds for: segment-10689101165701914459_2072_300_2092_300_with_camera_labels
+2026-03-12 12:40:33,385 | INFO | Processing segment: segment-1071392229495085036_1844_790_1864_790_with_camera_labels
+2026-03-12 12:40:56,981 | INFO | Saved preds for: segment-1071392229495085036_1844_790_1864_790_with_camera_labels
+2026-03-12 12:40:56,982 | INFO | Processing segment: segment-10837554759555844344_6525_000_6545_000_with_camera_labels
+2026-03-12 12:41:21,332 | INFO | Saved preds for: segment-10837554759555844344_6525_000_6545_000_with_camera_labels
+2026-03-12 12:41:21,333 | INFO | Processing segment: segment-10868756386479184868_3000_000_3020_000_with_camera_labels
+2026-03-12 12:41:58,000 | INFO | Saved preds for: segment-10868756386479184868_3000_000_3020_000_with_camera_labels
+2026-03-12 12:41:58,001 | INFO | Processing segment: segment-11037651371539287009_77_670_97_670_with_camera_labels
+2026-03-12 12:42:31,265 | INFO | Saved preds for: segment-11037651371539287009_77_670_97_670_with_camera_labels
+2026-03-12 12:42:31,267 | INFO | Processing segment: segment-11048712972908676520_545_000_565_000_with_camera_labels
+2026-03-12 12:43:03,708 | INFO | Saved preds for: segment-11048712972908676520_545_000_565_000_with_camera_labels
+2026-03-12 12:43:03,708 | INFO | Processing segment: segment-1105338229944737854_1280_000_1300_000_with_camera_labels
+2026-03-12 12:43:39,266 | INFO | Saved preds for: segment-1105338229944737854_1280_000_1300_000_with_camera_labels
+2026-03-12 12:43:39,268 | INFO | Processing segment: segment-11356601648124485814_409_000_429_000_with_camera_labels
+2026-03-12 12:44:12,076 | INFO | Saved preds for: segment-11356601648124485814_409_000_429_000_with_camera_labels
+2026-03-12 12:44:12,077 | INFO | Processing segment: segment-11387395026864348975_3820_000_3840_000_with_camera_labels
+2026-03-12 12:44:47,107 | INFO | Saved preds for: segment-11387395026864348975_3820_000_3840_000_with_camera_labels
+2026-03-12 12:44:47,108 | INFO | Processing segment: segment-11406166561185637285_1753_750_1773_750_with_camera_labels
+2026-03-12 12:45:12,848 | INFO | Saved preds for: segment-11406166561185637285_1753_750_1773_750_with_camera_labels
+2026-03-12 12:45:12,849 | INFO | Processing segment: segment-11434627589960744626_4829_660_4849_660_with_camera_labels
+2026-03-12 12:45:35,624 | INFO | Saved preds for: segment-11434627589960744626_4829_660_4849_660_with_camera_labels
+2026-03-12 12:45:35,626 | INFO | Processing segment: segment-11450298750351730790_1431_750_1451_750_with_camera_labels
+2026-03-12 12:46:09,073 | INFO | Saved preds for: segment-11450298750351730790_1431_750_1451_750_with_camera_labels
+2026-03-12 12:46:09,075 | INFO | Processing segment: segment-11616035176233595745_3548_820_3568_820_with_camera_labels
+2026-03-12 12:46:34,128 | INFO | Saved preds for: segment-11616035176233595745_3548_820_3568_820_with_camera_labels
+2026-03-12 12:46:34,130 | INFO | Processing segment: segment-11660186733224028707_420_000_440_000_with_camera_labels
+2026-03-12 12:47:10,421 | INFO | Saved preds for: segment-11660186733224028707_420_000_440_000_with_camera_labels
+2026-03-12 12:47:10,422 | INFO | Processing segment: segment-11901761444769610243_556_000_576_000_with_camera_labels
+2026-03-12 12:47:43,394 | INFO | Saved preds for: segment-11901761444769610243_556_000_576_000_with_camera_labels
+2026-03-12 12:47:43,395 | INFO | Processing segment: segment-12102100359426069856_3931_470_3951_470_with_camera_labels
+2026-03-12 12:48:07,308 | INFO | Saved preds for: segment-12102100359426069856_3931_470_3951_470_with_camera_labels
+2026-03-12 12:48:07,310 | INFO | Processing segment: segment-12134738431513647889_3118_000_3138_000_with_camera_labels
+2026-03-12 12:48:37,325 | INFO | Saved preds for: segment-12134738431513647889_3118_000_3138_000_with_camera_labels
+2026-03-12 12:48:37,326 | INFO | Processing segment: segment-12306251798468767010_560_000_580_000_with_camera_labels
+2026-03-12 12:49:07,967 | INFO | Saved preds for: segment-12306251798468767010_560_000_580_000_with_camera_labels
+2026-03-12 12:49:07,967 | INFO | Processing segment: segment-12358364923781697038_2232_990_2252_990_with_camera_labels
+2026-03-12 12:49:32,957 | INFO | Saved preds for: segment-12358364923781697038_2232_990_2252_990_with_camera_labels
+2026-03-12 12:49:32,958 | INFO | Processing segment: segment-12496433400137459534_120_000_140_000_with_camera_labels
+2026-03-12 12:50:09,571 | INFO | Saved preds for: segment-12496433400137459534_120_000_140_000_with_camera_labels
+2026-03-12 12:50:09,572 | INFO | Processing segment: segment-12657584952502228282_3940_000_3960_000_with_camera_labels
+2026-03-12 12:50:46,118 | INFO | Saved preds for: segment-12657584952502228282_3940_000_3960_000_with_camera_labels
+2026-03-12 12:50:46,158 | INFO | Processing segment: segment-12820461091157089924_5202_916_5222_916_with_camera_labels
+2026-03-12 12:51:17,589 | INFO | Saved preds for: segment-12820461091157089924_5202_916_5222_916_with_camera_labels
+2026-03-12 12:51:17,590 | INFO | Processing segment: segment-12831741023324393102_2673_230_2693_230_with_camera_labels
+2026-03-12 12:51:47,995 | INFO | Saved preds for: segment-12831741023324393102_2673_230_2693_230_with_camera_labels
+2026-03-12 12:51:47,996 | INFO | Processing segment: segment-12866817684252793621_480_000_500_000_with_camera_labels
+2026-03-12 12:52:25,860 | INFO | Saved preds for: segment-12866817684252793621_480_000_500_000_with_camera_labels
+2026-03-12 12:52:25,862 | INFO | Processing segment: segment-12940710315541930162_2660_000_2680_000_with_camera_labels
+2026-03-12 12:53:00,022 | INFO | Saved preds for: segment-12940710315541930162_2660_000_2680_000_with_camera_labels
+2026-03-12 12:53:00,023 | INFO | Processing segment: segment-13178092897340078601_5118_604_5138_604_with_camera_labels
+2026-03-12 12:53:34,725 | INFO | Saved preds for: segment-13178092897340078601_5118_604_5138_604_with_camera_labels
+2026-03-12 12:53:34,726 | INFO | Processing segment: segment-13184115878756336167_1354_000_1374_000_with_camera_labels
+2026-03-12 12:54:09,301 | INFO | Saved preds for: segment-13184115878756336167_1354_000_1374_000_with_camera_labels
+2026-03-12 12:54:09,303 | INFO | Processing segment: segment-13299463771883949918_4240_000_4260_000_with_camera_labels
+2026-03-12 12:54:40,850 | INFO | Saved preds for: segment-13299463771883949918_4240_000_4260_000_with_camera_labels
+2026-03-12 12:54:40,851 | INFO | Processing segment: segment-1331771191699435763_440_000_460_000_with_camera_labels
+2026-03-12 12:55:14,439 | INFO | Saved preds for: segment-1331771191699435763_440_000_460_000_with_camera_labels
+2026-03-12 12:55:14,440 | INFO | Processing segment: segment-13336883034283882790_7100_000_7120_000_with_camera_labels
+2026-03-12 12:55:47,045 | INFO | Saved preds for: segment-13336883034283882790_7100_000_7120_000_with_camera_labels
+2026-03-12 12:55:47,046 | INFO | Processing segment: segment-13356997604177841771_3360_000_3380_000_with_camera_labels
+2026-03-12 12:56:24,410 | INFO | Saved preds for: segment-13356997604177841771_3360_000_3380_000_with_camera_labels
+2026-03-12 12:56:24,412 | INFO | Processing segment: segment-13415985003725220451_6163_000_6183_000_with_camera_labels
+2026-03-12 12:56:48,686 | INFO | Saved preds for: segment-13415985003725220451_6163_000_6183_000_with_camera_labels
+2026-03-12 12:56:48,687 | INFO | Processing segment: segment-13469905891836363794_4429_660_4449_660_with_camera_labels
+2026-03-12 12:57:13,209 | INFO | Saved preds for: segment-13469905891836363794_4429_660_4449_660_with_camera_labels
+2026-03-12 12:57:13,210 | INFO | Processing segment: segment-13573359675885893802_1985_970_2005_970_with_camera_labels
+2026-03-12 12:57:48,743 | INFO | Saved preds for: segment-13573359675885893802_1985_970_2005_970_with_camera_labels
+2026-03-12 12:57:48,744 | INFO | Processing segment: segment-13694146168933185611_800_000_820_000_with_camera_labels
+2026-03-12 12:58:21,591 | INFO | Saved preds for: segment-13694146168933185611_800_000_820_000_with_camera_labels
+2026-03-12 12:58:21,592 | INFO | Processing segment: segment-13941626351027979229_3363_930_3383_930_with_camera_labels
+2026-03-12 12:58:57,993 | INFO | Saved preds for: segment-13941626351027979229_3363_930_3383_930_with_camera_labels
+2026-03-12 12:59:10,051 | INFO | Processing segment: segment-13982731384839979987_1680_000_1700_000_with_camera_labels
+2026-03-12 12:59:44,880 | INFO | Saved preds for: segment-13982731384839979987_1680_000_1700_000_with_camera_labels
+2026-03-12 12:59:44,882 | INFO | Processing segment: segment-1405149198253600237_160_000_180_000_with_camera_labels
+2026-03-12 13:00:18,177 | INFO | Saved preds for: segment-1405149198253600237_160_000_180_000_with_camera_labels
+2026-03-12 13:00:18,178 | INFO | Processing segment: segment-14081240615915270380_4399_000_4419_000_with_camera_labels
+2026-03-12 13:00:49,536 | INFO | Saved preds for: segment-14081240615915270380_4399_000_4419_000_with_camera_labels
+2026-03-12 13:00:49,537 | INFO | Processing segment: segment-14107757919671295130_3546_370_3566_370_with_camera_labels
+2026-03-12 13:01:20,324 | INFO | Saved preds for: segment-14107757919671295130_3546_370_3566_370_with_camera_labels
+2026-03-12 13:01:20,327 | INFO | Processing segment: segment-14127943473592757944_2068_000_2088_000_with_camera_labels
+2026-03-12 13:01:54,140 | INFO | Saved preds for: segment-14127943473592757944_2068_000_2088_000_with_camera_labels
+2026-03-12 13:01:54,142 | INFO | Processing segment: segment-14165166478774180053_1786_000_1806_000_with_camera_labels
+2026-03-12 13:02:20,039 | INFO | Saved preds for: segment-14165166478774180053_1786_000_1806_000_with_camera_labels
+2026-03-12 13:02:20,041 | INFO | Processing segment: segment-14244512075981557183_1226_840_1246_840_with_camera_labels
+2026-03-12 13:02:55,504 | INFO | Saved preds for: segment-14244512075981557183_1226_840_1246_840_with_camera_labels
+2026-03-12 13:02:55,506 | INFO | Processing segment: segment-14262448332225315249_1280_000_1300_000_with_camera_labels
+2026-03-12 13:03:31,751 | INFO | Saved preds for: segment-14262448332225315249_1280_000_1300_000_with_camera_labels
+2026-03-12 13:03:31,751 | INFO | Processing segment: segment-14300007604205869133_1160_000_1180_000_with_camera_labels
+2026-03-12 13:04:07,576 | INFO | Saved preds for: segment-14300007604205869133_1160_000_1180_000_with_camera_labels
+2026-03-12 13:04:07,577 | INFO | Processing segment: segment-14383152291533557785_240_000_260_000_with_camera_labels
+2026-03-12 13:04:43,135 | INFO | Saved preds for: segment-14383152291533557785_240_000_260_000_with_camera_labels
+2026-03-12 13:04:43,138 | INFO | Processing segment: segment-14486517341017504003_3406_349_3426_349_with_camera_labels
+2026-03-12 13:05:17,266 | INFO | Saved preds for: segment-14486517341017504003_3406_349_3426_349_with_camera_labels
+2026-03-12 13:05:17,267 | INFO | Processing segment: segment-1457696187335927618_595_027_615_027_with_camera_labels
+2026-03-12 13:05:50,173 | INFO | Saved preds for: segment-1457696187335927618_595_027_615_027_with_camera_labels
+2026-03-12 13:05:50,174 | INFO | Processing segment: segment-14624061243736004421_1840_000_1860_000_with_camera_labels
+2026-03-12 13:06:25,593 | INFO | Saved preds for: segment-14624061243736004421_1840_000_1860_000_with_camera_labels
+2026-03-12 13:06:25,594 | INFO | Processing segment: segment-1464917900451858484_1960_000_1980_000_with_camera_labels
+2026-03-12 13:06:58,710 | INFO | Saved preds for: segment-1464917900451858484_1960_000_1980_000_with_camera_labels
+2026-03-12 13:06:58,711 | INFO | Processing segment: segment-14663356589561275673_935_195_955_195_with_camera_labels
+2026-03-12 13:07:25,732 | INFO | Saved preds for: segment-14663356589561275673_935_195_955_195_with_camera_labels
+2026-03-12 13:07:25,733 | INFO | Processing segment: segment-14687328292438466674_892_000_912_000_with_camera_labels
+2026-03-12 13:07:58,965 | INFO | Saved preds for: segment-14687328292438466674_892_000_912_000_with_camera_labels
+2026-03-12 13:07:58,966 | INFO | Processing segment: segment-14739149465358076158_4740_000_4760_000_with_camera_labels
+2026-03-12 13:08:39,101 | INFO | Saved preds for: segment-14739149465358076158_4740_000_4760_000_with_camera_labels
+2026-03-12 13:08:39,103 | INFO | Processing segment: segment-14811410906788672189_373_113_393_113_with_camera_labels
+2026-03-12 13:09:06,309 | INFO | Saved preds for: segment-14811410906788672189_373_113_393_113_with_camera_labels
+2026-03-12 13:09:06,310 | INFO | Processing segment: segment-14931160836268555821_5778_870_5798_870_with_camera_labels
+2026-03-12 13:09:27,879 | INFO | Saved preds for: segment-14931160836268555821_5778_870_5798_870_with_camera_labels
+2026-03-12 13:09:27,880 | INFO | Processing segment: segment-14956919859981065721_1759_980_1779_980_with_camera_labels
+2026-03-12 13:10:02,093 | INFO | Saved preds for: segment-14956919859981065721_1759_980_1779_980_with_camera_labels
+2026-03-12 13:10:02,094 | INFO | Processing segment: segment-15021599536622641101_556_150_576_150_with_camera_labels
+2026-03-12 13:10:33,311 | INFO | Saved preds for: segment-15021599536622641101_556_150_576_150_with_camera_labels
+2026-03-12 13:10:33,312 | INFO | Processing segment: segment-15028688279822984888_1560_000_1580_000_with_camera_labels
+2026-03-12 13:11:10,475 | INFO | Saved preds for: segment-15028688279822984888_1560_000_1580_000_with_camera_labels
+2026-03-12 13:11:10,477 | INFO | Processing segment: segment-1505698981571943321_1186_773_1206_773_with_camera_labels
+2026-03-12 13:11:37,418 | INFO | Saved preds for: segment-1505698981571943321_1186_773_1206_773_with_camera_labels
+2026-03-12 13:11:37,419 | INFO | Processing segment: segment-15096340672898807711_3765_000_3785_000_with_camera_labels
+2026-03-12 13:12:20,696 | INFO | Saved preds for: segment-15096340672898807711_3765_000_3785_000_with_camera_labels
+2026-03-12 13:12:35,766 | INFO | Processing segment: segment-15224741240438106736_960_000_980_000_with_camera_labels
+2026-03-12 13:13:13,210 | INFO | Saved preds for: segment-15224741240438106736_960_000_980_000_with_camera_labels
+2026-03-12 13:13:13,212 | INFO | Processing segment: segment-15396462829361334065_4265_000_4285_000_with_camera_labels
+2026-03-12 13:14:39,425 | INFO | Saved preds for: segment-15396462829361334065_4265_000_4285_000_with_camera_labels
+2026-03-12 13:14:39,426 | INFO | Processing segment: segment-15488266120477489949_3162_920_3182_920_with_camera_labels
+2026-03-12 13:15:03,228 | INFO | Saved preds for: segment-15488266120477489949_3162_920_3182_920_with_camera_labels
+2026-03-12 13:15:03,229 | INFO | Processing segment: segment-15496233046893489569_4551_550_4571_550_with_camera_labels
+2026-03-12 13:15:26,822 | INFO | Saved preds for: segment-15496233046893489569_4551_550_4571_550_with_camera_labels
+2026-03-12 13:15:26,831 | INFO | Processing segment: segment-15611747084548773814_3740_000_3760_000_with_camera_labels
+2026-03-12 13:16:22,573 | INFO | Saved preds for: segment-15611747084548773814_3740_000_3760_000_with_camera_labels
+2026-03-12 13:16:22,574 | INFO | Processing segment: segment-15724298772299989727_5386_410_5406_410_with_camera_labels
+2026-03-12 13:16:50,057 | INFO | Saved preds for: segment-15724298772299989727_5386_410_5406_410_with_camera_labels
+2026-03-12 13:17:21,843 | INFO | Processing segment: segment-15948509588157321530_7187_290_7207_290_with_camera_labels
+2026-03-12 13:18:00,200 | INFO | Saved preds for: segment-15948509588157321530_7187_290_7207_290_with_camera_labels
+2026-03-12 13:18:00,202 | INFO | Processing segment: segment-15959580576639476066_5087_580_5107_580_with_camera_labels
+2026-03-12 13:18:26,392 | INFO | Saved preds for: segment-15959580576639476066_5087_580_5107_580_with_camera_labels
+2026-03-12 13:18:26,395 | INFO | Processing segment: segment-16204463896543764114_5340_000_5360_000_with_camera_labels
+2026-03-12 13:18:51,005 | INFO | Saved preds for: segment-16204463896543764114_5340_000_5360_000_with_camera_labels
+2026-03-12 13:18:51,006 | INFO | Processing segment: segment-16213317953898915772_1597_170_1617_170_with_camera_labels
+2026-03-12 13:19:28,870 | INFO | Saved preds for: segment-16213317953898915772_1597_170_1617_170_with_camera_labels
+2026-03-12 13:19:28,871 | INFO | Processing segment: segment-16229547658178627464_380_000_400_000_with_camera_labels
+2026-03-12 13:20:09,173 | INFO | Saved preds for: segment-16229547658178627464_380_000_400_000_with_camera_labels
+2026-03-12 13:20:09,175 | INFO | Processing segment: segment-16767575238225610271_5185_000_5205_000_with_camera_labels
+2026-03-12 13:20:35,005 | INFO | Saved preds for: segment-16767575238225610271_5185_000_5205_000_with_camera_labels
+2026-03-12 13:20:35,006 | INFO | Processing segment: segment-16979882728032305374_2719_000_2739_000_with_camera_labels
+2026-03-12 13:21:08,687 | INFO | Saved preds for: segment-16979882728032305374_2719_000_2739_000_with_camera_labels
+2026-03-12 13:21:08,687 | INFO | Processing segment: segment-17065833287841703_2980_000_3000_000_with_camera_labels
+2026-03-12 13:21:42,940 | INFO | Saved preds for: segment-17065833287841703_2980_000_3000_000_with_camera_labels
+2026-03-12 13:21:42,941 | INFO | Processing segment: segment-17135518413411879545_1480_000_1500_000_with_camera_labels
+2026-03-12 13:22:08,202 | INFO | Saved preds for: segment-17135518413411879545_1480_000_1500_000_with_camera_labels
+2026-03-12 13:22:08,203 | INFO | Processing segment: segment-17136314889476348164_979_560_999_560_with_camera_labels
+2026-03-12 13:22:42,314 | INFO | Saved preds for: segment-17136314889476348164_979_560_999_560_with_camera_labels
+2026-03-12 13:22:42,315 | INFO | Processing segment: segment-17152649515605309595_3440_000_3460_000_with_camera_labels
+2026-03-12 13:23:18,692 | INFO | Saved preds for: segment-17152649515605309595_3440_000_3460_000_with_camera_labels
+2026-03-12 13:23:18,694 | INFO | Processing segment: segment-17244566492658384963_2540_000_2560_000_with_camera_labels
+2026-03-12 13:23:52,905 | INFO | Saved preds for: segment-17244566492658384963_2540_000_2560_000_with_camera_labels
+2026-03-12 13:23:52,906 | INFO | Processing segment: segment-17344036177686610008_7852_160_7872_160_with_camera_labels
+2026-03-12 13:24:18,409 | INFO | Saved preds for: segment-17344036177686610008_7852_160_7872_160_with_camera_labels
+2026-03-12 13:24:18,410 | INFO | Processing segment: segment-17539775446039009812_440_000_460_000_with_camera_labels
+2026-03-12 13:24:56,780 | INFO | Saved preds for: segment-17539775446039009812_440_000_460_000_with_camera_labels
+2026-03-12 13:24:56,781 | INFO | Processing segment: segment-17612470202990834368_2800_000_2820_000_with_camera_labels
+2026-03-12 13:25:32,212 | INFO | Saved preds for: segment-17612470202990834368_2800_000_2820_000_with_camera_labels
+2026-03-12 13:25:32,465 | INFO | Processing segment: segment-17626999143001784258_2760_000_2780_000_with_camera_labels
+2026-03-12 13:26:09,116 | INFO | Saved preds for: segment-17626999143001784258_2760_000_2780_000_with_camera_labels
+2026-03-12 13:26:09,117 | INFO | Processing segment: segment-17694030326265859208_2340_000_2360_000_with_camera_labels
+2026-03-12 13:26:45,142 | INFO | Saved preds for: segment-17694030326265859208_2340_000_2360_000_with_camera_labels
+2026-03-12 13:26:45,144 | INFO | Processing segment: segment-17703234244970638241_220_000_240_000_with_camera_labels
+2026-03-12 13:27:17,361 | INFO | Saved preds for: segment-17703234244970638241_220_000_240_000_with_camera_labels
+2026-03-12 13:27:17,362 | INFO | Processing segment: segment-17763730878219536361_3144_635_3164_635_with_camera_labels
+2026-03-12 13:27:40,711 | INFO | Saved preds for: segment-17763730878219536361_3144_635_3164_635_with_camera_labels
+2026-03-12 13:27:40,712 | INFO | Processing segment: segment-17791493328130181905_1480_000_1500_000_with_camera_labels
+2026-03-12 13:28:18,491 | INFO | Saved preds for: segment-17791493328130181905_1480_000_1500_000_with_camera_labels
+2026-03-12 13:28:18,492 | INFO | Processing segment: segment-17860546506509760757_6040_000_6060_000_with_camera_labels
+2026-03-12 13:28:56,028 | INFO | Saved preds for: segment-17860546506509760757_6040_000_6060_000_with_camera_labels
+2026-03-12 13:28:56,029 | INFO | Processing segment: segment-17962792089966876718_2210_933_2230_933_with_camera_labels
+2026-03-12 13:29:23,210 | INFO | Saved preds for: segment-17962792089966876718_2210_933_2230_933_with_camera_labels
+2026-03-12 13:29:23,211 | INFO | Processing segment: segment-18024188333634186656_1566_600_1586_600_with_camera_labels
+2026-03-12 13:30:01,870 | INFO | Saved preds for: segment-18024188333634186656_1566_600_1586_600_with_camera_labels
+2026-03-12 13:30:01,871 | INFO | Processing segment: segment-18045724074935084846_6615_900_6635_900_with_camera_labels
+2026-03-12 13:30:35,786 | INFO | Saved preds for: segment-18045724074935084846_6615_900_6635_900_with_camera_labels
+2026-03-12 13:30:35,787 | INFO | Processing segment: segment-18252111882875503115_378_471_398_471_with_camera_labels
+2026-03-12 13:31:04,934 | INFO | Saved preds for: segment-18252111882875503115_378_471_398_471_with_camera_labels
+2026-03-12 13:31:04,935 | INFO | Processing segment: segment-18305329035161925340_4466_730_4486_730_with_camera_labels
+2026-03-12 13:31:28,822 | INFO | Saved preds for: segment-18305329035161925340_4466_730_4486_730_with_camera_labels
+2026-03-12 13:31:28,823 | INFO | Processing segment: segment-18331704533904883545_1560_000_1580_000_with_camera_labels
+2026-03-12 13:32:03,793 | INFO | Saved preds for: segment-18331704533904883545_1560_000_1580_000_with_camera_labels
+2026-03-12 13:32:03,795 | INFO | Processing segment: segment-18333922070582247333_320_280_340_280_with_camera_labels
+2026-03-12 13:32:28,682 | INFO | Saved preds for: segment-18333922070582247333_320_280_340_280_with_camera_labels
+2026-03-12 13:32:28,683 | INFO | Processing segment: segment-18446264979321894359_3700_000_3720_000_with_camera_labels
+2026-03-12 13:33:05,446 | INFO | Saved preds for: segment-18446264979321894359_3700_000_3720_000_with_camera_labels
+2026-03-12 13:33:05,448 | INFO | Processing segment: segment-1906113358876584689_1359_560_1379_560_with_camera_labels
+2026-03-12 13:33:33,270 | INFO | Saved preds for: segment-1906113358876584689_1359_560_1379_560_with_camera_labels
+2026-03-12 13:33:33,271 | INFO | Processing segment: segment-1943605865180232897_680_000_700_000_with_camera_labels
+2026-03-12 13:34:11,074 | INFO | Saved preds for: segment-1943605865180232897_680_000_700_000_with_camera_labels
+2026-03-12 13:34:11,075 | INFO | Processing segment: segment-2094681306939952000_2972_300_2992_300_with_camera_labels
+2026-03-12 13:34:48,499 | INFO | Saved preds for: segment-2094681306939952000_2972_300_2992_300_with_camera_labels
+2026-03-12 13:34:48,499 | INFO | Processing segment: segment-2105808889850693535_2295_720_2315_720_with_camera_labels
+2026-03-12 13:35:19,060 | INFO | Saved preds for: segment-2105808889850693535_2295_720_2315_720_with_camera_labels
+2026-03-12 13:35:19,061 | INFO | Processing segment: segment-2308204418431899833_3575_000_3595_000_with_camera_labels
+2026-03-12 13:35:46,759 | INFO | Saved preds for: segment-2308204418431899833_3575_000_3595_000_with_camera_labels
+2026-03-12 13:35:46,761 | INFO | Processing segment: segment-2335854536382166371_2709_426_2729_426_with_camera_labels
+2026-03-12 13:36:17,805 | INFO | Saved preds for: segment-2335854536382166371_2709_426_2729_426_with_camera_labels
+2026-03-12 13:36:17,962 | INFO | Processing segment: segment-2367305900055174138_1881_827_1901_827_with_camera_labels
+2026-03-12 13:36:49,730 | INFO | Saved preds for: segment-2367305900055174138_1881_827_1901_827_with_camera_labels
+2026-03-12 13:36:49,731 | INFO | Processing segment: segment-2506799708748258165_6455_000_6475_000_with_camera_labels
+2026-03-12 13:37:12,155 | INFO | Saved preds for: segment-2506799708748258165_6455_000_6475_000_with_camera_labels
+2026-03-12 13:37:12,155 | INFO | Processing segment: segment-2551868399007287341_3100_000_3120_000_with_camera_labels
+2026-03-12 13:37:47,757 | INFO | Saved preds for: segment-2551868399007287341_3100_000_3120_000_with_camera_labels
+2026-03-12 13:37:47,758 | INFO | Processing segment: segment-260994483494315994_2797_545_2817_545_with_camera_labels
+2026-03-12 13:38:08,741 | INFO | Saved preds for: segment-260994483494315994_2797_545_2817_545_with_camera_labels
+2026-03-12 13:38:08,742 | INFO | Processing segment: segment-2624187140172428292_73_000_93_000_with_camera_labels
+2026-03-12 13:38:46,068 | INFO | Saved preds for: segment-2624187140172428292_73_000_93_000_with_camera_labels
+2026-03-12 13:38:46,069 | INFO | Processing segment: segment-271338158136329280_2541_070_2561_070_with_camera_labels
+2026-03-12 13:39:09,354 | INFO | Saved preds for: segment-271338158136329280_2541_070_2561_070_with_camera_labels
+2026-03-12 13:39:09,355 | INFO | Processing segment: segment-272435602399417322_2884_130_2904_130_with_camera_labels
+2026-03-12 13:39:33,157 | INFO | Saved preds for: segment-272435602399417322_2884_130_2904_130_with_camera_labels
+2026-03-12 13:39:33,158 | INFO | Processing segment: segment-2736377008667623133_2676_410_2696_410_with_camera_labels
+2026-03-12 13:39:56,807 | INFO | Saved preds for: segment-2736377008667623133_2676_410_2696_410_with_camera_labels
+2026-03-12 13:39:56,808 | INFO | Processing segment: segment-2834723872140855871_1615_000_1635_000_with_camera_labels
+2026-03-12 13:40:21,700 | INFO | Saved preds for: segment-2834723872140855871_1615_000_1635_000_with_camera_labels
+2026-03-12 13:40:21,701 | INFO | Processing segment: segment-3015436519694987712_1300_000_1320_000_with_camera_labels
+2026-03-12 13:40:57,141 | INFO | Saved preds for: segment-3015436519694987712_1300_000_1320_000_with_camera_labels
+2026-03-12 13:40:57,143 | INFO | Processing segment: segment-3039251927598134881_1240_610_1260_610_with_camera_labels
+2026-03-12 13:41:25,475 | INFO | Saved preds for: segment-3039251927598134881_1240_610_1260_610_with_camera_labels
+2026-03-12 13:41:25,476 | INFO | Processing segment: segment-3077229433993844199_1080_000_1100_000_with_camera_labels
+2026-03-12 13:42:00,013 | INFO | Saved preds for: segment-3077229433993844199_1080_000_1100_000_with_camera_labels
+2026-03-12 13:42:00,014 | INFO | Processing segment: segment-30779396576054160_1880_000_1900_000_with_camera_labels
+2026-03-12 13:42:37,195 | INFO | Saved preds for: segment-30779396576054160_1880_000_1900_000_with_camera_labels
+2026-03-12 13:42:37,197 | INFO | Processing segment: segment-3126522626440597519_806_440_826_440_with_camera_labels
+2026-03-12 13:43:06,007 | INFO | Saved preds for: segment-3126522626440597519_806_440_826_440_with_camera_labels
+2026-03-12 13:43:06,008 | INFO | Processing segment: segment-346889320598157350_798_187_818_187_with_camera_labels
+2026-03-12 13:43:39,746 | INFO | Saved preds for: segment-346889320598157350_798_187_818_187_with_camera_labels
+2026-03-12 13:43:39,747 | INFO | Processing segment: segment-3577352947946244999_3980_000_4000_000_with_camera_labels
+2026-03-12 13:44:16,197 | INFO | Saved preds for: segment-3577352947946244999_3980_000_4000_000_with_camera_labels
+2026-03-12 13:44:16,198 | INFO | Processing segment: segment-3651243243762122041_3920_000_3940_000_with_camera_labels
+2026-03-12 13:44:50,102 | INFO | Saved preds for: segment-3651243243762122041_3920_000_3940_000_with_camera_labels
+2026-03-12 13:44:50,103 | INFO | Processing segment: segment-366934253670232570_2229_530_2249_530_with_camera_labels
+2026-03-12 13:45:13,862 | INFO | Saved preds for: segment-366934253670232570_2229_530_2249_530_with_camera_labels
+2026-03-12 13:45:13,863 | INFO | Processing segment: segment-3731719923709458059_1540_000_1560_000_with_camera_labels
+2026-03-12 13:45:47,711 | INFO | Saved preds for: segment-3731719923709458059_1540_000_1560_000_with_camera_labels
+2026-03-12 13:45:47,712 | INFO | Processing segment: segment-3915587593663172342_10_000_30_000_with_camera_labels
+2026-03-12 13:46:22,483 | INFO | Saved preds for: segment-3915587593663172342_10_000_30_000_with_camera_labels
+2026-03-12 13:46:22,484 | INFO | Processing segment: segment-4195774665746097799_7300_960_7320_960_with_camera_labels
+2026-03-12 13:46:47,124 | INFO | Saved preds for: segment-4195774665746097799_7300_960_7320_960_with_camera_labels
+2026-03-12 13:46:47,125 | INFO | Processing segment: segment-4246537812751004276_1560_000_1580_000_with_camera_labels
+2026-03-12 13:47:21,188 | INFO | Saved preds for: segment-4246537812751004276_1560_000_1580_000_with_camera_labels
+2026-03-12 13:47:21,190 | INFO | Processing segment: segment-4409585400955983988_3500_470_3520_470_with_camera_labels
+2026-03-12 13:47:47,205 | INFO | Saved preds for: segment-4409585400955983988_3500_470_3520_470_with_camera_labels
+2026-03-12 13:47:47,206 | INFO | Processing segment: segment-4423389401016162461_4235_900_4255_900_with_camera_labels
+2026-03-12 13:48:15,792 | INFO | Saved preds for: segment-4423389401016162461_4235_900_4255_900_with_camera_labels
+2026-03-12 13:48:15,793 | INFO | Processing segment: segment-4426410228514970291_1620_000_1640_000_with_camera_labels
+2026-03-12 13:48:46,623 | INFO | Saved preds for: segment-4426410228514970291_1620_000_1640_000_with_camera_labels
+2026-03-12 13:48:46,624 | INFO | Processing segment: segment-447576862407975570_4360_000_4380_000_with_camera_labels
+2026-03-12 13:49:20,491 | INFO | Saved preds for: segment-447576862407975570_4360_000_4380_000_with_camera_labels
+2026-03-12 13:49:20,492 | INFO | Processing segment: segment-4490196167747784364_616_569_636_569_with_camera_labels
+2026-03-12 13:49:43,231 | INFO | Saved preds for: segment-4490196167747784364_616_569_636_569_with_camera_labels
+2026-03-12 13:49:43,231 | INFO | Processing segment: segment-4575389405178805994_4900_000_4920_000_with_camera_labels
+2026-03-12 13:50:19,858 | INFO | Saved preds for: segment-4575389405178805994_4900_000_4920_000_with_camera_labels
+2026-03-12 13:50:19,860 | INFO | Processing segment: segment-4612525129938501780_340_000_360_000_with_camera_labels
+2026-03-12 13:50:57,650 | INFO | Saved preds for: segment-4612525129938501780_340_000_360_000_with_camera_labels
+2026-03-12 13:50:57,651 | INFO | Processing segment: segment-4690718861228194910_1980_000_2000_000_with_camera_labels
+2026-03-12 13:51:34,548 | INFO | Saved preds for: segment-4690718861228194910_1980_000_2000_000_with_camera_labels
+2026-03-12 13:51:34,550 | INFO | Processing segment: segment-4759225533437988401_800_000_820_000_with_camera_labels
+2026-03-12 13:52:10,629 | INFO | Saved preds for: segment-4759225533437988401_800_000_820_000_with_camera_labels
+2026-03-12 13:52:10,630 | INFO | Processing segment: segment-4764167778917495793_860_000_880_000_with_camera_labels
+2026-03-12 13:52:47,503 | INFO | Saved preds for: segment-4764167778917495793_860_000_880_000_with_camera_labels
+2026-03-12 13:52:47,505 | INFO | Processing segment: segment-4816728784073043251_5273_410_5293_410_with_camera_labels
+2026-03-12 13:53:11,396 | INFO | Saved preds for: segment-4816728784073043251_5273_410_5293_410_with_camera_labels
+2026-03-12 13:53:11,397 | INFO | Processing segment: segment-4854173791890687260_2880_000_2900_000_with_camera_labels
+2026-03-12 13:53:46,302 | INFO | Saved preds for: segment-4854173791890687260_2880_000_2900_000_with_camera_labels
+2026-03-12 13:53:46,303 | INFO | Processing segment: segment-5183174891274719570_3464_030_3484_030_with_camera_labels
+2026-03-12 13:54:15,204 | INFO | Saved preds for: segment-5183174891274719570_3464_030_3484_030_with_camera_labels
+2026-03-12 13:54:15,206 | INFO | Processing segment: segment-5289247502039512990_2640_000_2660_000_with_camera_labels
+2026-03-12 13:54:50,401 | INFO | Saved preds for: segment-5289247502039512990_2640_000_2660_000_with_camera_labels
+2026-03-12 13:54:50,403 | INFO | Processing segment: segment-5302885587058866068_320_000_340_000_with_camera_labels
+2026-03-12 13:55:27,683 | INFO | Saved preds for: segment-5302885587058866068_320_000_340_000_with_camera_labels
+2026-03-12 13:55:27,684 | INFO | Processing segment: segment-5372281728627437618_2005_000_2025_000_with_camera_labels
+2026-03-12 13:55:59,510 | INFO | Saved preds for: segment-5372281728627437618_2005_000_2025_000_with_camera_labels
+2026-03-12 13:55:59,511 | INFO | Processing segment: segment-5373876050695013404_3817_170_3837_170_with_camera_labels
+2026-03-12 13:56:23,728 | INFO | Saved preds for: segment-5373876050695013404_3817_170_3837_170_with_camera_labels
+2026-03-12 13:56:23,730 | INFO | Processing segment: segment-5574146396199253121_6759_360_6779_360_with_camera_labels
+2026-03-12 13:56:59,635 | INFO | Saved preds for: segment-5574146396199253121_6759_360_6779_360_with_camera_labels
+2026-03-12 13:56:59,636 | INFO | Processing segment: segment-5772016415301528777_1400_000_1420_000_with_camera_labels
+2026-03-12 13:57:34,433 | INFO | Saved preds for: segment-5772016415301528777_1400_000_1420_000_with_camera_labels
+2026-03-12 13:57:34,433 | INFO | Processing segment: segment-5832416115092350434_60_000_80_000_with_camera_labels
+2026-03-12 13:58:13,640 | INFO | Saved preds for: segment-5832416115092350434_60_000_80_000_with_camera_labels
+2026-03-12 13:58:13,642 | INFO | Processing segment: segment-5847910688643719375_180_000_200_000_with_camera_labels
+2026-03-12 13:58:49,974 | INFO | Saved preds for: segment-5847910688643719375_180_000_200_000_with_camera_labels
+2026-03-12 13:58:49,975 | INFO | Processing segment: segment-5990032395956045002_6600_000_6620_000_with_camera_labels
+2026-03-12 13:59:29,668 | INFO | Saved preds for: segment-5990032395956045002_6600_000_6620_000_with_camera_labels
+2026-03-12 13:59:29,670 | INFO | Processing segment: segment-6001094526418694294_4609_470_4629_470_with_camera_labels
+2026-03-12 14:00:03,813 | INFO | Saved preds for: segment-6001094526418694294_4609_470_4629_470_with_camera_labels
+2026-03-12 14:00:03,814 | INFO | Processing segment: segment-6074871217133456543_1000_000_1020_000_with_camera_labels
+2026-03-12 14:00:39,395 | INFO | Saved preds for: segment-6074871217133456543_1000_000_1020_000_with_camera_labels
+2026-03-12 14:00:39,397 | INFO | Processing segment: segment-6183008573786657189_5414_000_5434_000_with_camera_labels
+2026-03-12 14:01:01,463 | INFO | Saved preds for: segment-6183008573786657189_5414_000_5434_000_with_camera_labels
+2026-03-12 14:01:01,465 | INFO | Processing segment: segment-6324079979569135086_2372_300_2392_300_with_camera_labels
+2026-03-12 14:01:37,566 | INFO | Saved preds for: segment-6324079979569135086_2372_300_2392_300_with_camera_labels
+2026-03-12 14:01:37,568 | INFO | Processing segment: segment-6491418762940479413_6520_000_6540_000_with_camera_labels
+2026-03-12 14:02:00,339 | INFO | Saved preds for: segment-6491418762940479413_6520_000_6540_000_with_camera_labels
+2026-03-12 14:02:00,340 | INFO | Processing segment: segment-662188686397364823_3248_800_3268_800_with_camera_labels
+2026-03-12 14:02:39,517 | INFO | Saved preds for: segment-662188686397364823_3248_800_3268_800_with_camera_labels
+2026-03-12 14:02:39,519 | INFO | Processing segment: segment-6637600600814023975_2235_000_2255_000_with_camera_labels
+2026-03-12 14:03:10,897 | INFO | Saved preds for: segment-6637600600814023975_2235_000_2255_000_with_camera_labels
+2026-03-12 14:03:10,898 | INFO | Processing segment: segment-6680764940003341232_2260_000_2280_000_with_camera_labels
+2026-03-12 14:03:45,210 | INFO | Saved preds for: segment-6680764940003341232_2260_000_2280_000_with_camera_labels
+2026-03-12 14:03:45,210 | INFO | Processing segment: segment-6707256092020422936_2352_392_2372_392_with_camera_labels
+2026-03-12 14:04:09,160 | INFO | Saved preds for: segment-6707256092020422936_2352_392_2372_392_with_camera_labels
+2026-03-12 14:04:09,161 | INFO | Processing segment: segment-7119831293178745002_1094_720_1114_720_with_camera_labels
+2026-03-12 14:04:39,305 | INFO | Saved preds for: segment-7119831293178745002_1094_720_1114_720_with_camera_labels
+2026-03-12 14:04:39,306 | INFO | Processing segment: segment-7163140554846378423_2717_820_2737_820_with_camera_labels
+2026-03-12 14:05:02,644 | INFO | Saved preds for: segment-7163140554846378423_2717_820_2737_820_with_camera_labels
+2026-03-12 14:05:02,646 | INFO | Processing segment: segment-7253952751374634065_1100_000_1120_000_with_camera_labels
+2026-03-12 14:05:36,157 | INFO | Saved preds for: segment-7253952751374634065_1100_000_1120_000_with_camera_labels
+2026-03-12 14:05:36,158 | INFO | Processing segment: segment-7493781117404461396_2140_000_2160_000_with_camera_labels
+2026-03-12 14:06:13,602 | INFO | Saved preds for: segment-7493781117404461396_2140_000_2160_000_with_camera_labels
+2026-03-12 14:06:13,604 | INFO | Processing segment: segment-7650923902987369309_2380_000_2400_000_with_camera_labels
+2026-03-12 14:06:47,665 | INFO | Saved preds for: segment-7650923902987369309_2380_000_2400_000_with_camera_labels
+2026-03-12 14:06:47,666 | INFO | Processing segment: segment-7732779227944176527_2120_000_2140_000_with_camera_labels
+2026-03-12 14:07:21,227 | INFO | Saved preds for: segment-7732779227944176527_2120_000_2140_000_with_camera_labels
+2026-03-12 14:07:21,228 | INFO | Processing segment: segment-7799643635310185714_680_000_700_000_with_camera_labels
+2026-03-12 14:07:58,001 | INFO | Saved preds for: segment-7799643635310185714_680_000_700_000_with_camera_labels
+2026-03-12 14:07:58,003 | INFO | Processing segment: segment-7932945205197754811_780_000_800_000_with_camera_labels
+2026-03-12 14:08:33,949 | INFO | Saved preds for: segment-7932945205197754811_780_000_800_000_with_camera_labels
+2026-03-12 14:08:33,983 | INFO | Processing segment: segment-7988627150403732100_1487_540_1507_540_with_camera_labels
+2026-03-12 14:09:12,956 | INFO | Saved preds for: segment-7988627150403732100_1487_540_1507_540_with_camera_labels
+2026-03-12 14:09:12,957 | INFO | Processing segment: segment-8079607115087394458_1240_000_1260_000_with_camera_labels
+2026-03-12 14:09:49,444 | INFO | Saved preds for: segment-8079607115087394458_1240_000_1260_000_with_camera_labels
+2026-03-12 14:09:49,445 | INFO | Processing segment: segment-8133434654699693993_1162_020_1182_020_with_camera_labels
+2026-03-12 14:10:23,916 | INFO | Saved preds for: segment-8133434654699693993_1162_020_1182_020_with_camera_labels
+2026-03-12 14:10:23,917 | INFO | Processing segment: segment-8137195482049459160_3100_000_3120_000_with_camera_labels
+2026-03-12 14:11:00,795 | INFO | Saved preds for: segment-8137195482049459160_3100_000_3120_000_with_camera_labels
+2026-03-12 14:11:00,797 | INFO | Processing segment: segment-8302000153252334863_6020_000_6040_000_with_camera_labels
+2026-03-12 14:11:37,610 | INFO | Saved preds for: segment-8302000153252334863_6020_000_6040_000_with_camera_labels
+2026-03-12 14:11:37,611 | INFO | Processing segment: segment-8331804655557290264_4351_740_4371_740_with_camera_labels
+2026-03-12 14:12:11,051 | INFO | Saved preds for: segment-8331804655557290264_4351_740_4371_740_with_camera_labels
+2026-03-12 14:12:11,053 | INFO | Processing segment: segment-8398516118967750070_3958_000_3978_000_with_camera_labels
+2026-03-12 14:12:44,545 | INFO | Saved preds for: segment-8398516118967750070_3958_000_3978_000_with_camera_labels
+2026-03-12 14:12:44,546 | INFO | Processing segment: segment-8506432817378693815_4860_000_4880_000_with_camera_labels
+2026-03-12 14:13:21,421 | INFO | Saved preds for: segment-8506432817378693815_4860_000_4880_000_with_camera_labels
+2026-03-12 14:13:21,422 | INFO | Processing segment: segment-8679184381783013073_7740_000_7760_000_with_camera_labels
+2026-03-12 14:13:59,656 | INFO | Saved preds for: segment-8679184381783013073_7740_000_7760_000_with_camera_labels
+2026-03-12 14:13:59,658 | INFO | Processing segment: segment-8845277173853189216_3828_530_3848_530_with_camera_labels
+2026-03-12 14:14:33,351 | INFO | Saved preds for: segment-8845277173853189216_3828_530_3848_530_with_camera_labels
+2026-03-12 14:14:33,352 | INFO | Processing segment: segment-8907419590259234067_1960_000_1980_000_with_camera_labels
+2026-03-12 14:15:11,373 | INFO | Saved preds for: segment-8907419590259234067_1960_000_1980_000_with_camera_labels
+2026-03-12 14:15:11,375 | INFO | Processing segment: segment-89454214745557131_3160_000_3180_000_with_camera_labels
+2026-03-12 14:15:48,248 | INFO | Saved preds for: segment-89454214745557131_3160_000_3180_000_with_camera_labels
+2026-03-12 14:15:48,249 | INFO | Processing segment: segment-8956556778987472864_3404_790_3424_790_with_camera_labels
+2026-03-12 14:16:23,695 | INFO | Saved preds for: segment-8956556778987472864_3404_790_3424_790_with_camera_labels
+2026-03-12 14:16:23,696 | INFO | Processing segment: segment-902001779062034993_2880_000_2900_000_with_camera_labels
+2026-03-12 14:16:58,077 | INFO | Saved preds for: segment-902001779062034993_2880_000_2900_000_with_camera_labels
+2026-03-12 14:16:58,078 | INFO | Processing segment: segment-9024872035982010942_2578_810_2598_810_with_camera_labels
+2026-03-12 14:17:28,599 | INFO | Saved preds for: segment-9024872035982010942_2578_810_2598_810_with_camera_labels
+2026-03-12 14:17:28,600 | INFO | Processing segment: segment-9041488218266405018_6454_030_6474_030_with_camera_labels
+2026-03-12 14:17:53,399 | INFO | Saved preds for: segment-9041488218266405018_6454_030_6474_030_with_camera_labels
+2026-03-12 14:17:53,400 | INFO | Processing segment: segment-9114112687541091312_1100_000_1120_000_with_camera_labels
+2026-03-12 14:18:29,090 | INFO | Saved preds for: segment-9114112687541091312_1100_000_1120_000_with_camera_labels
+2026-03-12 14:18:29,092 | INFO | Processing segment: segment-9164052963393400298_4692_970_4712_970_with_camera_labels
+2026-03-12 14:18:54,828 | INFO | Saved preds for: segment-9164052963393400298_4692_970_4712_970_with_camera_labels
+2026-03-12 14:18:54,829 | INFO | Processing segment: segment-9231652062943496183_1740_000_1760_000_with_camera_labels
+2026-03-12 14:19:32,839 | INFO | Saved preds for: segment-9231652062943496183_1740_000_1760_000_with_camera_labels
+2026-03-12 14:19:32,840 | INFO | Processing segment: segment-9243656068381062947_1297_428_1317_428_with_camera_labels
+2026-03-12 14:20:09,084 | INFO | Saved preds for: segment-9243656068381062947_1297_428_1317_428_with_camera_labels
+2026-03-12 14:20:09,085 | INFO | Processing segment: segment-9265793588137545201_2981_960_3001_960_with_camera_labels
+2026-03-12 14:20:35,091 | INFO | Saved preds for: segment-9265793588137545201_2981_960_3001_960_with_camera_labels
+2026-03-12 14:20:35,109 | INFO | Processing segment: segment-933621182106051783_4160_000_4180_000_with_camera_labels
+2026-03-12 14:21:10,920 | INFO | Saved preds for: segment-933621182106051783_4160_000_4180_000_with_camera_labels
+2026-03-12 14:21:10,921 | INFO | Processing segment: segment-9443948810903981522_6538_870_6558_870_with_camera_labels
+2026-03-12 14:21:35,045 | INFO | Saved preds for: segment-9443948810903981522_6538_870_6558_870_with_camera_labels
+2026-03-12 14:21:35,046 | INFO | Processing segment: segment-9472420603764812147_850_000_870_000_with_camera_labels
+2026-03-12 14:22:06,571 | INFO | Saved preds for: segment-9472420603764812147_850_000_870_000_with_camera_labels
+2026-03-12 14:22:06,572 | INFO | Processing segment: segment-9579041874842301407_1300_000_1320_000_with_camera_labels
+2026-03-12 14:22:43,073 | INFO | Saved preds for: segment-9579041874842301407_1300_000_1320_000_with_camera_labels
+2026-03-12 14:22:43,075 | INFO | Processing segment: segment-967082162553397800_5102_900_5122_900_with_camera_labels
+2026-03-12 14:23:08,415 | INFO | Saved preds for: segment-967082162553397800_5102_900_5122_900_with_camera_labels
+2026-03-12 14:23:17,086 | INFO | 
+
+Starting Waymo evaluation
+2026-03-12 15:30:25,710 | INFO | Evaluation complete
+2026-03-12 15:30:25,762 | INFO | 
+===== RESULT STRING =====
+
+2026-03-12 15:30:25,762 | INFO | 
+
+OBJECT_TYPE_TYPE_VEHICLE_LEVEL_1/AP: 0.6129 
+OBJECT_TYPE_TYPE_VEHICLE_LEVEL_1/APH: 0.6080 
+OBJECT_TYPE_TYPE_VEHICLE_LEVEL_1/APL: 0.6129 
+OBJECT_TYPE_TYPE_VEHICLE_LEVEL_2/AP: 0.5469 
+OBJECT_TYPE_TYPE_VEHICLE_LEVEL_2/APH: 0.5425 
+OBJECT_TYPE_TYPE_VEHICLE_LEVEL_2/APL: 0.5469 
+OBJECT_TYPE_TYPE_PEDESTRIAN_LEVEL_1/AP: 0.5714 
+OBJECT_TYPE_TYPE_PEDESTRIAN_LEVEL_1/APH: 0.5219 
+OBJECT_TYPE_TYPE_PEDESTRIAN_LEVEL_1/APL: 0.5714 
+OBJECT_TYPE_TYPE_PEDESTRIAN_LEVEL_2/AP: 0.5063 
+OBJECT_TYPE_TYPE_PEDESTRIAN_LEVEL_2/APH: 0.4625 
+OBJECT_TYPE_TYPE_PEDESTRIAN_LEVEL_2/APL: 0.5063 
+OBJECT_TYPE_TYPE_SIGN_LEVEL_1/AP: 0.0000 
+OBJECT_TYPE_TYPE_SIGN_LEVEL_1/APH: 0.0000 
+OBJECT_TYPE_TYPE_SIGN_LEVEL_1/APL: 0.0000 
+OBJECT_TYPE_TYPE_SIGN_LEVEL_2/AP: 0.0000 
+OBJECT_TYPE_TYPE_SIGN_LEVEL_2/APH: 0.0000 
+OBJECT_TYPE_TYPE_SIGN_LEVEL_2/APL: 0.0000 
+OBJECT_TYPE_TYPE_CYCLIST_LEVEL_1/AP: 0.0910 
+OBJECT_TYPE_TYPE_CYCLIST_LEVEL_1/APH: 0.0879 
+OBJECT_TYPE_TYPE_CYCLIST_LEVEL_1/APL: 0.0910 
+OBJECT_TYPE_TYPE_CYCLIST_LEVEL_2/AP: 0.0877 
+OBJECT_TYPE_TYPE_CYCLIST_LEVEL_2/APH: 0.0846 
+OBJECT_TYPE_TYPE_CYCLIST_LEVEL_2/APL: 0.0877 
+
+2026-03-12 15:30:25,763 | INFO | 
+===== RESULT DICT =====
+2026-03-12 15:30:25,763 | INFO | {
+  "OBJECT_TYPE_TYPE_VEHICLE_LEVEL_1/AP": 0.6128735542297363,
+  "OBJECT_TYPE_TYPE_VEHICLE_LEVEL_1/APH": 0.6080031991004944,
+  "OBJECT_TYPE_TYPE_VEHICLE_LEVEL_1/APL": 0.6128735542297363,
+  "OBJECT_TYPE_TYPE_VEHICLE_LEVEL_2/AP": 0.5469125509262085,
+  "OBJECT_TYPE_TYPE_VEHICLE_LEVEL_2/APH": 0.5424506664276123,
+  "OBJECT_TYPE_TYPE_VEHICLE_LEVEL_2/APL": 0.5469125509262085,
+  "OBJECT_TYPE_TYPE_PEDESTRIAN_LEVEL_1/AP": 0.5713934302330017,
+  "OBJECT_TYPE_TYPE_PEDESTRIAN_LEVEL_1/APH": 0.5218990445137024,
+  "OBJECT_TYPE_TYPE_PEDESTRIAN_LEVEL_1/APL": 0.5713934302330017,
+  "OBJECT_TYPE_TYPE_PEDESTRIAN_LEVEL_2/AP": 0.5063304901123047,
+  "OBJECT_TYPE_TYPE_PEDESTRIAN_LEVEL_2/APH": 0.4625186324119568,
+  "OBJECT_TYPE_TYPE_PEDESTRIAN_LEVEL_2/APL": 0.5063304901123047,
+  "OBJECT_TYPE_TYPE_SIGN_LEVEL_1/AP": 0.0,
+  "OBJECT_TYPE_TYPE_SIGN_LEVEL_1/APH": 0.0,
+  "OBJECT_TYPE_TYPE_SIGN_LEVEL_1/APL": 0.0,
+  "OBJECT_TYPE_TYPE_SIGN_LEVEL_2/AP": 0.0,
+  "OBJECT_TYPE_TYPE_SIGN_LEVEL_2/APH": 0.0,
+  "OBJECT_TYPE_TYPE_SIGN_LEVEL_2/APL": 0.0,
+  "OBJECT_TYPE_TYPE_CYCLIST_LEVEL_1/AP": 0.09104109555482864,
+  "OBJECT_TYPE_TYPE_CYCLIST_LEVEL_1/APH": 0.08786839991807938,
+  "OBJECT_TYPE_TYPE_CYCLIST_LEVEL_1/APL": 0.09104109555482864,
+  "OBJECT_TYPE_TYPE_CYCLIST_LEVEL_2/AP": 0.08767156302928925,
+  "OBJECT_TYPE_TYPE_CYCLIST_LEVEL_2/APH": 0.08461616188287735,
+  "OBJECT_TYPE_TYPE_CYCLIST_LEVEL_2/APL": 0.08767156302928925
+}
+2026-03-12 15:30:25,765 | INFO | Metrics saved to metrics_clean_sanity.json

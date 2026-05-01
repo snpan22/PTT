@@ -1,8 +1,9 @@
 CLASS_NAMES: ['Vehicle', 'Pedestrian', 'Cyclist']
 
 DATA_CONFIG:
-    _BASE_CONFIG_: cfgs/dataset_configs/waymo_dataset.yaml
+    _BASE_CONFIG_: /storage/scratch1/9/spanse30/PTT/tools/cfgs/dataset_configs/waymo_dataset.yaml
     PROCESSED_DATA_TAG: 'waymo_processed_data_v0_5_0'
+    # DATA_PATH: '/storage/scratch1/9/spanse30/PTT/data/waymo'
 
     SAMPLED_INTERVAL: {
         'train': 1,
@@ -19,8 +20,8 @@ DATA_CONFIG:
     USE_PREDBOX: True
     ONLY_CURRENT: True
     ROI_BOXES_PATH: {
-        'train': '../output/xxxxx/train/result.pkl',  # example: predicted boxes of RPN in training set
-        'test': '../output/xxxxx/val/result.pkl',  # example: predicted boxes of RPN in evalulation set
+        'train': '/storage/project/r-gchou3-0/spanse30/OpenPCDet/output/cfgs/custom_models/centerpoint_multiframe_waymo/default/eval/epoch_36/train/default/result_fixed.pkl',  # example: predicted boxes of RPN in training set
+        'test': '/storage/project/r-gchou3-0/spanse30/OpenPCDet/output/cfgs/custom_models/centerpoint_multiframe_waymo/default/eval/epoch_36/val/default/result_fixed.pkl',  # example: predicted boxes of RPN in evalulation set
     }
 
     DATA_AUGMENTOR:
@@ -165,8 +166,8 @@ MODEL:
 
 
 OPTIMIZATION:
-    BATCH_SIZE_PER_GPU: 5
-    NUM_EPOCHS: 3
+    BATCH_SIZE_PER_GPU: 4
+    NUM_EPOCHS: 6
 
     OPTIMIZER: adam_onecycle
     LR: 0.003

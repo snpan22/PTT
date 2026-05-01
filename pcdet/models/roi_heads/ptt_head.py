@@ -263,6 +263,7 @@ class ProposalTargetLayerMPPNet(ProposalTargetLayer):
                 roi_labels: (B, num_rois)
         Returns:
         """
+        device = batch_dict['rois'].device
         cur_frame_idx = 0
         batch_size = batch_dict['batch_size']
         rois = batch_dict['trajectory_rois'][:,cur_frame_idx,:,:]
@@ -334,6 +335,7 @@ class ProposalTargetLayerMPPNet(ProposalTargetLayer):
             batch_roi_scores[index] = cur_roi_scores[sampled_inds]
 
             if 'valid_length' in batch_dict.keys():
+                sampled_inds = sampled_inds.to(cur_valid_length.device)
                 batch_valid_length[index] = cur_valid_length[:,sampled_inds]
 
             if self.roi_sampler_cfg.USE_TRAJ_AUG.ENABLED:
